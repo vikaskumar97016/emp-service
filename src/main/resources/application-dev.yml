@@ -1,0 +1,22 @@
+
+server:
+  port: 9191
+
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        password: eidiko@123
+#        url: jdbc:mysql://192.168.2.47:3306/eidiko_emp_portal
+        url: jdbc:mysql://192.168.2.47:3306/test
+        username: eidiko
+        
+    jpa: 
+        properties:
+            hibernate:
+                format-sql: true
+        hibernate:
+            ddl-auto: none
+
+        show-sql: true
+       
+        
